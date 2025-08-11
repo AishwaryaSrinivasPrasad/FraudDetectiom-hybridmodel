@@ -1,0 +1,23 @@
+
+name: final-project
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - scikit-learn
+  - numpy>=1.22
+  - nptyping=2.5.0
+  - matplotlib
+  - jupyter
+  - tensorflow
+  - openai
+  - python-dotenv
+  - networkx
+  - gensim
+  - xgboost
+  - pip:
+      - keras
+      - git+https://github.com/krishnanlab/pecanpy.git@master
+      - pecanpy 
